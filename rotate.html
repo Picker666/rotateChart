@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>example1</title>
+		<link rel="stylesheet" href="./rotate.css">
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+</html>
+<script src="./jquery.min.js"></script>
+<script type="text/javascript" src="./rotate.js"></script>
+<script>
+	var images = ['./images/four.png', "./images/first.png", './images/second.png', './images/third.png'];
+	var rotateChat = new RotateChart(images, '#root');
+	rotateChat.init();
+	console.log(rotateChat);
+</script>
+

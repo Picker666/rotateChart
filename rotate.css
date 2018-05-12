@@ -1,0 +1,45 @@
+.rotationChart {
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.rotationChartWrapper {
+    position: absolute;
+    height: 600px;
+    width: 3900px;
+    font-size: 0;
+    left: -1300px;
+}
+.leftSpan, .rightSpan {
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: 300px;
+    color: lightblue;
+    background-color: #fefefe;
+}
+.leftSpan {
+    left: 100px;
+}
+.rightSpan {
+    right: 100px;
+}
+
+.rotationIcon {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0px;
+}
+.rotationIcon span{
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.rotationIcon .rotationActive {
+    padding: 4px 15px;
+    background-color: lightblue;
+}
